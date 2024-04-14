@@ -9,6 +9,7 @@ public class _2529_Maximum_Count_of_Positive_Integer_and_Negative_Integer {
                 neg++;
             }
         }
+
         return Math.max(pos, neg);
     }
 

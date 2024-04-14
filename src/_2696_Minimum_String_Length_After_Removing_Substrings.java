@@ -1,6 +1,6 @@
 import java.util.Stack;
 
-public class _2696_Minimum_String_Length_After_Removing_Substrings {
+public class    _2696_Minimum_String_Length_After_Removing_Substrings {
     public static int minLength(String s) {
 //        while ((s.indexOf("AB", 0, s.length()) != -1) || (s.indexOf("CD", 0, s.length()) != -1)) {
 //            if (s.indexOf("AB", 0, s.length()) != -1) {
