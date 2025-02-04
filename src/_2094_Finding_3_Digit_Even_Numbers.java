@@ -1,4 +1,3 @@
-import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -26,10 +25,9 @@ public class _2094_Finding_3_Digit_Even_Numbers {
         return integerSet.stream().sorted().mapToInt(i -> i).toArray();
     }
 
-    ;
 
-    public static void main(String[] args) {
-        int[] nums = {2,2,8,8,2};
-        System.out.println(Arrays.toString(findEvenNumbers(nums)));
-    }
+//    public static void main(String[] args) {
+//        int[] nums = {2,2,8,8,2};
+//        System.out.println(Arrays.toString(findEvenNumbers(nums)));
+//    }
 }
