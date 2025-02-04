@@ -21,8 +21,8 @@ public class _1295_Find_Numbers_with_Even_Number_of_Digits {
         return count;
     }
 
-    public static void main(String[] args) {
-        int[] nums = {555, 901, 482, 1771};
-        System.out.println("result: " + findNumbers(nums));
-    }
+//    public static void main(String[] args) {
+//        int[] nums = {555, 901, 482, 1771};
+//        System.out.println("result: " + findNumbers(nums));
+//    }
 }
