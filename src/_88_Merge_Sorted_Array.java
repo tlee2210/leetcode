@@ -1,3 +1,4 @@
+import java.util.Arrays;
 
 public class _88_Merge_Sorted_Array {
     public static void merge(int[] nums1, int m, int[] nums2, int n) {
@@ -22,9 +23,9 @@ public class _88_Merge_Sorted_Array {
         }
     }
 
-//    public static void main(String[] args) {
-//        int[] num1 = {1, 2, 3, 0, 0, 0}, num2 = {2, 5, 6};
-//        merge(num1, 3, num2, 3);
-//        System.out.println(Arrays.toString(num1));
-//    }
+    public static void main(String[] args) {
+        int[] num1 = {1, 2, 3, 0, 0, 0}, num2 = {2, 5, 6};
+        merge(num1, 3, num2, 3);
+        System.out.println(Arrays.toString(num1));
+    }
 }
