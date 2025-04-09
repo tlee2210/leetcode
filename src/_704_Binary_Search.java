@@ -32,7 +32,7 @@ public class _704_Binary_Search {
             return bSearch(nums, target, iMid + 1, iright);
         } else {
 
-            return bSearch(nums, target, ileft, iMid - 11);
+            return bSearch(nums, target, ileft, iMid - 1);
         }
     }
 
@@ -42,7 +42,10 @@ public class _704_Binary_Search {
     }
 
     public static void main(String[] args) {
-        int[] nums = {-1, 0, 3, 5, 9, 12};
+        int[] nums = {-1, 0, 1, 2, 3, 5, 9, 12};
         System.out.println(Search(nums, 2));
+
+        System.out.println(bSearch(nums, 2));
+
     }
 }
