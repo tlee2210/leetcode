@@ -21,8 +21,10 @@ public class _704_Binary_Search {
 
     public static int bSearch(int[] nums, int target, int ileft, int iright) {
         if (ileft > iright) return -1;
+        System.out.println("[ " + ileft + " : " + iright +" ]");
 
         int iMid = (ileft + iright) / 2;
+
 
         if (target == nums[iMid]) {
 
@@ -42,8 +44,8 @@ public class _704_Binary_Search {
     }
 
     public static void main(String[] args) {
-        int[] nums = {-1, 0, 1, 2, 3, 5, 9, 12};
-        System.out.println(Search(nums, 2));
+        int[] nums = {-1, 0, 1, 2, 3, 5};
+//        System.out.println(Search(nums, 2));
 
         System.out.println(bSearch(nums, 2));
 
