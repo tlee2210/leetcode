@@ -6,6 +6,9 @@ public class _205_Isomorphic_Strings {
         for (int i = 0; i < s.length(); i++) {
             if (m1[s.charAt(i)] != m2[t.charAt(i)]) return false;
 
+//            System.out.println("m1[" + s.charAt(i) + "] = " + m1[s.charAt(i)]);
+//            System.out.println("m2[" + t.charAt(i) + "] = " + m2[t.charAt(i)]);
+
             m1[s.charAt(i)] = i + 1;
             m2[t.charAt(i)] = i + 1;
         }
