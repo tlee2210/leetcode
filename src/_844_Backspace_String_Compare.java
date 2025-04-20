@@ -1,11 +1,11 @@
 public class _844_Backspace_String_Compare {
-    public boolean backspaceCompare(String s, String t) {
+    public static boolean backspaceCompare(String s, String t) {
         s = processString(s);
         t = processString(t);
         return s.equals(t);
     }
 
-    private String processString(String str) {
+    private static String processString(String str) {
         StringBuffer sb = new StringBuffer();
         for (char c : str.toCharArray()) {
             if (c == '#') {
@@ -19,4 +19,10 @@ public class _844_Backspace_String_Compare {
         return sb.toString();
     }
 
+
+    public static void main(String[] args) {
+        String s = "ab#c", t = "ad#c";
+
+        System.out.println(backspaceCompare(s,t));
+    }
 }
