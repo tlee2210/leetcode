@@ -1,5 +1,6 @@
 public class _1816_Truncate_Sentence {
     public static String truncateSentence(String s, int k) {
+
         int cnt = 0;
         for (int i = 0; i < s.length(); i++) {
             if (s.charAt(i) == ' ') {
