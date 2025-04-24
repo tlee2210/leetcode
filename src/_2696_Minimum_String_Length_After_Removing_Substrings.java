@@ -1,5 +1,5 @@
 public class _2696_Minimum_String_Length_After_Removing_Substrings {
-    public int minLength(String s) {
+    public static int minLength(String s) {
         char[] arr = new char[s.length()];
         int i = -1;
         for (char ch : s.toCharArray()) {
@@ -16,5 +16,6 @@ public class _2696_Minimum_String_Length_After_Removing_Substrings {
     public static void main(String[] args) {
         String s = "ABFCACDB";
 
+        System.out.println(minLength(s));
     }
 }
