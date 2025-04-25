@@ -9,6 +9,7 @@ public class _2696_Minimum_String_Length_After_Removing_Substrings {
                 arr[++i] = ch;
             }
         }
+
         return i + 1;
     }
 
