@@ -10,7 +10,7 @@ public class _349_Intersection_of_Two_Arrays {
 
         List<Integer> resultList = Arrays.stream(nums2)
                 .filter(num -> set.contains(num))
-                .peek(num -> set.remove(num)) // vừa kiểm tra, vừa remove luôn
+                .peek(num -> set.remove(num))
                 .boxed()
                 .collect(Collectors.toList());
 
