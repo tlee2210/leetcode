@@ -12,6 +12,7 @@ public class _9_Palindrome_Number {
     }
 
     public static void main(String[] args) {
+
         System.out.println(isPalindrome(121));
     }
 }
