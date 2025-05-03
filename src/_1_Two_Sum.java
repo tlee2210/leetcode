@@ -8,6 +8,7 @@ public class _1_Two_Sum {
 
         for (int i = 0; i < nums.length; i++) {
             int complement = target - nums[i];
+
             if (map.containsKey(complement)) {
 
                 return new int[]{map.get(complement), i};
@@ -22,7 +23,7 @@ public class _1_Two_Sum {
     public static void main(String[] args) {
         int[] nums = {2, 7, 11, 15};
 
-        int target = 9;
+        int target = 13;
 
         System.out.println(Arrays.toString(twoSum(nums, target)));
     }
