@@ -39,9 +39,8 @@ public class _448_Find_All_Numbers_Disappeared_in_an_Array {
 
     public static void main(String[] args) {
         int[] nums = {4, 3, 2, 7, 8, 2, 3, 1};
-        int[] nums1 = {4, 3, 2, 7, 8, 2, 3, 1};
 
-        System.out.println(findDisappearedNumbers(nums));
-        System.out.println(findDisappearedNumbers1(nums1));
+        System.out.println("fifindDisappearedNumbers 1: " + findDisappearedNumbers1(nums));
+        System.out.println("fifindDisappearedNumbers : " + findDisappearedNumbers(nums));
     }
 }
