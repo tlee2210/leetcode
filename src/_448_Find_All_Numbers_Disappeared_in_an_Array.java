@@ -4,7 +4,6 @@ import java.util.List;
 import java.util.Set;
 
 public class _448_Find_All_Numbers_Disappeared_in_an_Array {
-
     public static List<Integer> findDisappearedNumbers1(int[] nums) {
         Set<Integer> set = new HashSet<>();
         List<Integer> result = new ArrayList<>();
