@@ -8,6 +8,7 @@ public class _575_Distribute_Candies {
                 candyType) {
             integerMap.add(a);
         }
+
         return Math.min(candyType.length / 2, integerMap.size());
     }
 
