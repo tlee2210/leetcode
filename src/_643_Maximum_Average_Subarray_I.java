@@ -14,6 +14,7 @@ public class _643_Maximum_Average_Subarray_I {
         }
 
         return maxSum / k;
+
     }
 
     public static void main(String[] args) {
