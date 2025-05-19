@@ -14,6 +14,7 @@ public class _645_Set_Mismatch {
             if (freq[i] == 2) {
                 result[0] = i;
             }
+
             if (freq[i] == 0) {
                 result[1] = i;
             }
