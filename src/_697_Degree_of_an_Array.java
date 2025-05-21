@@ -12,6 +12,7 @@ public class _697_Degree_of_an_Array {
 
         for (int i = 0; i < nums.length; i++) {
             first.putIfAbsent(nums[i], i);
+
             counts.put(nums[i], counts.getOrDefault(nums[i], 0) + 1);
 
             if (counts.get(nums[i]) > degree) {
