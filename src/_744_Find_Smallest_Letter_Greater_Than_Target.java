@@ -11,8 +11,6 @@ public class _744_Find_Smallest_Letter_Greater_Than_Target {
             }
         }
 
-        System.out.println(left % letters.length);
-
         return letters[left % letters.length];
     }
 
