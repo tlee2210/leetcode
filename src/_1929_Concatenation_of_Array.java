@@ -6,6 +6,7 @@ public class _1929_Concatenation_of_Array {
             ans[i] = nums[i];
             ans[i + n] = nums[i];
         }
+        
         return ans;
     }
 
