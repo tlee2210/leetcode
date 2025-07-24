@@ -14,6 +14,8 @@ public class insertionSort {
             }
 
             a[j + 1] = ai;
+
+            System.out.println(Arrays.toString(a));
         }
     }
 
